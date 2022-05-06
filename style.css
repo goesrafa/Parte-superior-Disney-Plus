@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url(avenir_ff/AvenirLTStd-Roman.otf) format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Avenir Roman", sans-serif;
+    background: url('original.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #f9f9f9;
+    background: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #f9f9f9 ;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    transition: .2s ease;
+}
+
+.btn:hover{
+    background: #f9f9f9;
+    color:rgba(0, 0, 0, 0.6)
+}
+
+.logo{
+    max-width: 160px;
+}
+
+.hero-content{
+    margin-top:  100px;
+    padding-left: 80px;
+}
+
+.hero-content > p{
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(192, 192, 192, 0.8);
+    margin-top: 16px;
+}
+
+h1{
+    font-size: 44px;
+    line-height: 53px;
+    color: #f9f9f9;
+    margin-bottom: 30px;
+    margin: 20px 0 30px 0;
+}
+.preco-container{
+    display: flex;
+}
+
+.preco {
+    width: 300px;
+    color: rgba(192, 192, 192, 0.8);
+    max-width: 100%;
+}
+.preco span{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #f9f9f9;
+}
+
+.preco p{
+    margin: 8px 0;     
+}
+
+ .preco a{
+     padding: 16.5px 14px;
+     background: #0063e5;
+     display: block;
+     border-radius: 4px;
+     text-align: center;
+     color: #f9f9f9;
+     text-decoration: none;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     transition: 0.2s ease;
+ }
+
+.preco a :hover{
+    backgound: #0489ee;
+}
+
+ .preco + .preco{
+     margin-left: 32px;
+ }
+
+ img.logo{
+     max-width: 160px;
+ }
